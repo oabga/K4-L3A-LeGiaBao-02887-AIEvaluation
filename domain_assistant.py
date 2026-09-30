@@ -240,7 +240,7 @@ class BM25Retriever:
 
 class TextGenerator(Protocol):
     def generate(self, prompt: str) -> str: ...
-
+    2
 
 class OpenAIGenerator:
     def __init__(self, max_output_tokens: int = 300) -> None:
